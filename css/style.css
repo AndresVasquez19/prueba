@@ -167,10 +167,13 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header #navbar li.call-to-action a span:before {
   background-color: transparent;
 }
+
+/*WEGO TITLE*/
+
 #fh5co-header .navbar-brand {
   float: left;
   display: block;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   padding-left: 0;
   color: #630000;
@@ -271,6 +274,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ff3b30;
   font-style: normal;
 }
+/* alto del primer contenedor*/
 
 #fh5co-home {
   background-color: transparent;
@@ -298,8 +302,11 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   background: rgba(0, 0, 0, 0.3);
 }
+
+
+
 #fh5co-home, #fh5co-home .text-wrap {
-  height: 900px;
+  height: 700px;
 }
 #fh5co-home .text-wrap {
   display: table;
@@ -347,33 +354,41 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
 }
 #fh5co-home .text-inner .call-to-action a.demo {
-  border: 2px solid #ca7900;
+  border: 3px solid #ca7900;
   background: #630000;
   text-decoration: none !important;
 }
 @media screen and (max-width: 768px) {
   #fh5co-home .text-inner .call-to-action a.demo {
     margin-bottom: 20px;
-    border: 2px solid #630000;
+    border: 3px solid #630000;
     background: #ca7900;
     text-decoration: none !important;
   }
 }
+/*
 #fh5co-home .text-inner .call-to-action a.demo:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(201, 0, 0, 0.2);
 }
+*/
+
+.fh5co-explore h1 {
+  font-size: 300%;
+  font-weight:bold;
+}
+
 #fh5co-home .text-inner .call-to-action a.download {
-  border: 2px solid #630000;
+  border: 3px solid #630000;
   background: #ca7900;
   text-decoration: none !important;
 }
 
 #fh5co-services, #fh5co-testimony, #fh5co-explore, #fh5co-faq, #fh5co-team, #fh5co-trusted, #fh5co-footer {
-  padding: 5em 0;
+  padding: 1em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services, #fh5co-testimony, #fh5co-explore, #fh5co-faq, #fh5co-team, #fh5co-trusted, #fh5co-footer {
-    padding: 2em 0;
+    padding: 0em 0;
   }
 }
 
@@ -385,19 +400,25 @@ h1, h2, h3, h4, h5, h6 {
     padding: 4em 0;
   }
 }
-
+.h1 {
+  font-size: 250%;
+  color: #630000;
+  text-decoration: underline;
+  font-weight:bold;
+}
+/*empieza el segundo contenedor */
 .fh5co-explore {
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 
 .fh5co-explore-bg-color {
   width: 100%;
   background: rgb(230, 220, 220);
-  padding: 80px 0;
+  padding: 0px 0;
   margin-bottom: 0;
 }
 
-/* */
+/* iconos de la aplicacion 2 contenedenor*/
 
 .mt {
   margin-top: 80px;
@@ -412,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   left: 0;
   top: 0;
-  color: #1fb5f6;
+  color: #ca7900;
 }
 .mt > div {
   margin-bottom: 40px;
@@ -422,14 +443,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-/* para listas */
+/* para listas - letra contenedor 1 */
 .mt .list-nav li {
   list-style: none;
-  color: #000;
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-  padding-left: 20px;
+  color: rgb(0, 0, 0);
+  margin: 2;
+  padding: 10;
+  font-size: 25px;
+  padding-left: 25px;
   margin-bottom: 10px;
   position: relative;
 }
@@ -440,10 +461,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   color: #ce7900;
 }
+/*para el texto de la lista*/
 
 .mt p {
   color: #000;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #fh5co-testimony .wrap-testimony {
@@ -451,7 +473,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 #fh5co-testimony .wrap-testimony .testimony-slide {
-  text-align: center;
+  text-align:center;
 }
 #fh5co-testimony .wrap-testimony .testimony-slide span {
   font-size: 12px;
@@ -460,7 +482,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 #fh5co-testimony .wrap-testimony .testimony-slide span a.twitter {
-  color: #1fb5f6;
+  color: #ca7900;
   font-weight: 300;
 }
 #fh5co-testimony .wrap-testimony .testimony-slide figure {
@@ -524,20 +546,22 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+/*Contenedor de llamada a la accion  de registrase*/
+
 .getting-started {
   background: #ce7900;
-  padding: 60px 0 40px 0;
+  padding: 40px 0 40px 0;
 }
-.getting-started h3 {
+.getting-started h2 {
   color: #fff;
 }
 .getting-started p {
   color: rgba(255, 255, 255, 0.8);
 }
 .getting-started .call-to-action {
-  display: block;
-  width: 100%;
-  float: left;
+  display:block;
+  width: 80%;
+  float:left;
 }
 @media screen and (max-width: 992px) {
   .getting-started .call-to-action {
@@ -546,10 +570,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left !important;
   }
 }
+/*boton de llamada a la accion*/
 .getting-started .call-to-action a.sign-up {
   float: right;
   margin-top: 20px;
-  padding: 18px 60px;
+  padding: 15px 60px;
   background: #630000;
   color: #fff;
   -webkit-border-radius: 4px;
@@ -603,7 +628,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #ff3b30;
 }
 .fh5co-pricing .price-box .btn-select-plan {
-  padding: 10px 20px;
+  padding: 40px 20px;
   background: #1fb5f6;
   color: #fff;
   -webkit-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.15);
@@ -615,11 +640,11 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-pricing .pricing-plan {
   margin: 0 0 50px 0;
   padding: 0;
-  font-size: 13px;
-  letter-spacing: 2px;
+  font-size: 50px;
+  letter-spacing: 10px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #888f94;
+  color: #948888;
 }
 .fh5co-pricing .pricing-plan.pricing-plan-offer {
   margin-bottom: 24px;
@@ -641,12 +666,16 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 10px;
 }
 .fh5co-pricing .price small {
-  font-size: 13px;
+  font-size: 20px;
   display: block;
   text-transform: uppercase;
   color: #888f94;
 }
-
+/* SERVICIOS SECCION DE INCONOS ETC*/
+.fh5co-services h1 {
+  font-size: 250%;
+  font-weight:bold;
+}
 .fh5co-services .box-services {
   position: relative;
   margin-bottom: 70px;
@@ -655,28 +684,37 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   left: 0;
   top: 0;
-  font-size: 54px;
-  color: #1fb5f6;
+  font-size: 70px;
+  color: #ca7900;
 }
 .fh5co-services .fh5co-post {
-  padding-left: 75px;
+  padding-left: 80px;
 }
 .fh5co-services .fh5co-post h3 {
-  font-size: 20px;
+  font-size: 35px;
   margin-bottom: 15px;
 }
-.fh5co-services .call-to-action .btn-learn {
-  padding: 12px 30px;
-  background: #50c5f8;
-  color: #fff;
+.fh5co-services .fh5co-post p {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 15px;
 }
 
+
+.fh5co-services .call-to-action .btn-learn {
+  padding: 15px 350px;
+  background: #630000;
+  color: #fff;
+  font-size:100%;
+  font-size: smaller;
+}
+/*
 #fh5co-team {
-  background: #f1faff;
+  background: #1072a7;
 }
 #fh5co-team .team-box {
   position: relative;
-  padding: 30px;
+  padding: 10px;
   padding-top: 5em;
   background: #fff;
   float: left;
@@ -744,9 +782,9 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   color: #ff3b30 !important;
 }
-
+*/
 .box-faq {
-  margin-bottom: 60px;
+  margin-bottom: -20px;
 }
 .box-faq h3 {
   font-size: 20px;
@@ -755,7 +793,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .partner-logo {
   margin-bottom: 30px;
-  float: left;
   width: 100%;
   vertical-align: middle;
   display: -moz-inline-stack;
@@ -771,23 +808,35 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
   clear: both;
 }
-.section-heading h2 {
+.fh5co-faq .section-heading h2 {
   margin: 0 0 0 0;
-  font-size: 40px;
-  font-weight: 400;
-  color: #333;
+  font-size: 80px;
+  font-weight: 1000; 
+  color: rgb(0, 0, 0);
   position: relative;
   display: block;
   padding-bottom: 10px;
   line-height: 1.5;
 }
+.fh5co-faq  p{
+  font-size: 100%;
+  color: #000;
+}
+.fh5co-faq h3{
+  font-size: 150%;
+  font-weight: 500;
+}
+
+
+
+/*seccion del footer*/
 @media screen and (max-width: 768px) {
   .section-heading h2 {
     font-size: 28px;
   }
 }
 .section-heading h3 {
-  font-size: 1.5em;
+  font-size: 36px;
   font-weight: 400;
   line-height: 1.5;
   color: #000;
@@ -795,6 +844,13 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   padding-bottom: 30px;
 }
+
+.fh5co-trusted .h11{
+  font-size: 250%;
+  font-weight: bold;
+  color: #630000;
+}
+
 .section-heading h3:after {
   content: "";
   position: absolute;
@@ -812,6 +868,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 28px;
   }
 }
+
 
 #fh5co-footer {
   background: #3f5267;
